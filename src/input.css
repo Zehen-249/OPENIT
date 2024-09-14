@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Caramel&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.box{
+    background-image: url("../media/25112-removebg-preview.png");
+    background-size: cover;
+    animation: vibrate 2s infinite;
+}
+
+
+@keyframes vibrate {
+    0%, 100% { transform: translate(0, 0); }
+      10%,  50%, 70% { transform: translate(-10px, 0); }
+      30% , 60% , 90% {
+        transform: translate(0px, 10px); 
+      }
+      20%, 40%,  80% { transform: translate(10px, 0); }
+}
