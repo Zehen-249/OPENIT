@@ -71,7 +71,7 @@ function prepareFinalMessage() {
         typingArea.classList.remove("fade-out");  
         charIndex = 0;  
         typingArea.innerHTML = `
-            <img src="./media/Screenshot_2024-09-20-00-28-13-390_com.instagram.android-edit.jpg" alt="Happy Birthday" class="birthday-image lg:w-[300px]">
+            <img src="media/Screenshot_2024-09-20-00-28-13-390_com.instagram.android-edit.jpg" alt="Happy Birthday" class="birthday-image lg:w-[300px]">
             <h1 class="birthday-heading text-[1rem] lg:text-[2rem] sm:mt-[10px] lg:mt-[12px]" ">Happy Birthday!</h1>
         `;
         
