@@ -657,7 +657,7 @@ html, body {
 }
 
 .box {
-  background-image: url("../media/25112-removebg-preview.png");
+  background-image: url("media/25112-removebg-preview.png");
   background-size: cover;
   transition: opacity 0.6s ease, transform 0.6s ease;
   position: relative;
